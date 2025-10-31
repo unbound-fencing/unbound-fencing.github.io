@@ -1,5 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import levHeadshot from '@/assets/lev_headshot.jpg';
+import willHeadshot from '@/assets/will_headshot.jpg';
 
 const teamMembers = [
   {
@@ -7,14 +9,14 @@ const teamMembers = [
     role: "Founder",
     bio: "Division I Fencer at Duke University.",
     initials: "WH",
-    image: ""
+    image: willHeadshot
   },
   {
     name: "Lev Ermakov",
     role: "Founder",
     bio: "Division I Fencer at Duke University.",
     initials: "LE",
-    image: ""
+    image: levHeadshot
   }
 ];
 
@@ -31,14 +33,18 @@ const Team = () => {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="flex flex-wrap justify-center gap-8">
           {teamMembers.map((member, index) => (
             <Card 
               key={index}
               className="p-6 text-center hover:shadow-xl transition-all duration-300 hover:-translate-y-1 bg-card border-border"
             >
               <Avatar className="w-24 h-24 mx-auto mb-4">
-                <AvatarImage src={member.image} alt={member.name} />
+                <AvatarImage 
+                  src={member.image} 
+                  alt={member.name}
+                  className="object-cover"
+                />
                 <AvatarFallback className="text-2xl bg-primary text-primary-foreground">
                   {member.initials}
                 </AvatarFallback>
