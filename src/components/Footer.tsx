@@ -7,11 +7,10 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <Shield className="w-6 h-6 text-primary" />
-              <span className="text-xl font-bold text-foreground">En Garde for All</span>
+              <span className="text-xl font-bold text-foreground">Unbound Fencing Initiative</span>
             </div>
             <p className="text-muted-foreground">
-              Empowering disabled youth through the transformative sport of fencing.
+              Empowering neurodivergent youth through the transformative sport of fencing.
             </p>
           </div>
 
@@ -49,11 +48,11 @@ const Footer = () => {
             <h4 className="font-bold text-foreground mb-4">Contact</h4>
             <div className="space-y-3">
               <a 
-                href="mailto:info@engardeforall.org"
+                href="mailto:unboundfencing@gmail.com"
                 className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
               >
                 <Mail className="w-5 h-5" />
-                <span>info@engardeforall.org</span>
+                <span>unboundfencing@gmail.com</span>
               </a>
             </div>
           </div>
@@ -64,7 +63,7 @@ const Footer = () => {
             Made with <Heart className="w-4 h-4 text-accent fill-accent" /> by volunteers for volunteers
           </p>
           <p className="mt-2 text-sm">
-            © {new Date().getFullYear()} En Garde for All. All rights reserved.
+            © {new Date().getFullYear()} Unbound Fencing Initiative. All rights reserved.
           </p>
         </div>
       </div>

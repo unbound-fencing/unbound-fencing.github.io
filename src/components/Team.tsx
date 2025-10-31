@@ -3,31 +3,17 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const teamMembers = [
   {
-    name: "Sarah Chen",
-    role: "Founder & Head Coach",
-    bio: "Former Olympic fencer with 10+ years teaching adaptive sports. Passionate about creating inclusive opportunities.",
-    initials: "SC",
+    name: "William Holz",
+    role: "Founder",
+    bio: "Division I Fencer at Duke University.",
+    initials: "WH",
     image: ""
   },
   {
-    name: "Marcus Williams",
-    role: "Lead Volunteer Coordinator",
-    bio: "Special education teacher and fencing enthusiast. Coordinates our volunteer training program.",
-    initials: "MW",
-    image: ""
-  },
-  {
-    name: "Dr. Elena Rodriguez",
-    role: "Adaptive Sports Specialist",
-    bio: "Physical therapist specializing in adaptive athletics. Ensures our program meets each participant's needs.",
-    initials: "ER",
-    image: ""
-  },
-  {
-    name: "Jamie Park",
-    role: "Youth Program Director",
-    bio: "Youth development expert with background in inclusive recreation. Oversees daily program operations.",
-    initials: "JP",
+    name: "Lev Ermakov",
+    role: "Founder",
+    bio: "Division I Fencer at Duke University.",
+    initials: "LE",
     image: ""
   }
 ];

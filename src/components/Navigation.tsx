@@ -17,8 +17,7 @@ const Navigation = () => {
             onClick={() => scrollToSection('hero')}
             className="flex items-center gap-2 text-xl font-bold text-primary hover:opacity-80 transition-opacity"
           >
-            <Shield className="w-6 h-6" />
-            <span>En Garde for All</span>
+            <span>Unbound Fencing Initiative</span>
           </button>
           
           <div className="hidden md:flex items-center gap-6">
@@ -38,7 +37,7 @@ const Navigation = () => {
               onClick={() => scrollToSection('signup')}
               className="bg-gradient-to-r from-accent to-accent/90 hover:from-accent/90 hover:to-accent/80"
             >
-              Volunteer Now
+              Sign Up Now
             </Button>
           </div>
 

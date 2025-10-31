@@ -34,7 +34,7 @@ const About = () => {
             Our Mission
           </h2>
           <p className="text-xl text-muted-foreground leading-relaxed">
-            En Garde for All is dedicated to making the sport of fencing accessible to disabled youth through adaptive instruction and community support. We believe in the transformative power of sports to build confidence, discipline, and lasting friendships.
+            Unbound Fencing Initiative is dedicated to making the sport of fencing accessible to neurodivergent youth through adaptive instruction and community support. We believe in the transformative power of sports to build confidence, discipline, and lasting friendships.
           </p>
         </div>
 
@@ -53,12 +53,6 @@ const About = () => {
             <div className="space-y-4 text-lg text-muted-foreground">
               <p>
                 Our volunteer instructors work one-on-one and in small groups with disabled youth ages 8-18, teaching the fundamentals of fencing in a welcoming, adaptive environment.
-              </p>
-              <p>
-                Since our founding in 2020, we've served over 200 young fencers and trained more than 50 dedicated volunteers. Our program meets twice weekly at local community centers, with all equipment provided free of charge.
-              </p>
-              <p>
-                As a volunteer, you'll receive comprehensive training in adaptive sports instruction, work closely with experienced coaches, and become part of a passionate community making a real difference in young lives.
               </p>
             </div>
           </div>
