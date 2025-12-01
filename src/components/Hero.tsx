@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import heroImage from "@/assets/hero-fencing.jpg";
+import heroImage from "@/assets/photo2.jpg";
 
 const Hero = () => {
   const scrollToSignup = () => {

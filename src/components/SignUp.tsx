@@ -17,7 +17,7 @@ const SignUp = () => {
             <Button 
               size="lg"
               className="text-lg bg-gradient-to-r from-accent to-accent/90 hover:from-accent/90 hover:to-accent/80 shadow-lg"
-              onClick={() => window.open('https://forms.google.com', '_blank')}
+              onClick={() => window.open('https://docs.google.com/forms/d/188BUJtasreQSVYgt5SBo7B1G-ZcZy_XFcr22AsGmZOo/edit', '_blank')}
             >
               Sign Up 
               <ExternalLink className="ml-2 w-5 h-5" />

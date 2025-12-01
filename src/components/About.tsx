@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Heart, Users, Target, Award } from "lucide-react";
-import volunteerImage from "@/assets/volunteer-teaching.jpg";
+import volunteerImage from "@/assets/photo1.jpg";
 
 const values = [
   {
@@ -34,7 +34,7 @@ const About = () => {
             Our Mission
           </h2>
           <p className="text-xl text-muted-foreground leading-relaxed">
-            Unbound Fencing Initiative is dedicated to making the sport of fencing accessible to neurodivergent youth through adaptive instruction and community support. We believe in the transformative power of sports to build confidence, discipline, and lasting friendships.
+            Our mission is to make the sport of fencing accessible, welcoming, and meaningful for neurodivergent youth. We strive to support athlete’s unique strengths and use fencing as a tool for confidence building and community. We believe every child deserves a place to train and grow alongside others, and here at Unbound Fencing we are committed to providing that.
           </p>
         </div>
 
