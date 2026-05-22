@@ -52,7 +52,7 @@ const About = () => {
             </h3>
             <div className="space-y-4 text-lg text-muted-foreground">
               <p>
-                Our volunteer instructors work one-on-one and in small groups with neurodivergent kids ages 6-13, teaching the fundamentals of fencing in a welcoming, adaptive environment.
+                Our volunteer instructors teach the fundamentals of fencing to neurodivergent kids ages 6–13, working in small groups across our two-day camps. Footwork, blade work, and the basics they'd learn in any beginner class.
               </p>
             </div>
           </div>
