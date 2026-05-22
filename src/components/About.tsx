@@ -34,7 +34,7 @@ const About = () => {
             Our Mission
           </h2>
           <p className="text-xl text-muted-foreground leading-relaxed">
-            Our mission is to make the sport of fencing accessible, welcoming, and meaningful for neurodivergent youth. We strive to support athlete’s unique strengths and use fencing as a tool for confidence building and community. We believe every child deserves a place to train and grow alongside others, and here at Unbound Fencing we are committed to providing that.
+            Our mission is to bring fencing to more neurodivergent kids. Every kid has their own strengths, and fencing is a great way to build on them while gaining confidence and making friends along the way. We think every kid deserves a place to train and grow with others, and that's what we're building at Unbound Fencing.
           </p>
         </div>
 
@@ -52,7 +52,7 @@ const About = () => {
             </h3>
             <div className="space-y-4 text-lg text-muted-foreground">
               <p>
-                Our volunteer instructors work one-on-one and in small groups with neurodivergent youth ages 6-13, teaching the fundamentals of fencing in a welcoming, adaptive environment.
+                Our volunteer instructors work one-on-one and in small groups with neurodivergent kids ages 6-13, teaching the fundamentals of fencing in a welcoming, adaptive environment.
               </p>
             </div>
           </div>
