@@ -6,17 +6,17 @@ const values = [
   {
     icon: Heart,
     title: "Inclusivity",
-    description: "Every child, regardless of ability, deserves access to enriching sports programs."
+    description: "Every child, regardless of ability, deserves access to enriching sports programs like fencing."
   },
   {
     icon: Users,
     title: "Community",
-    description: "We build lasting connections between volunteers, families, and youth participants."
+    description: "We build lasting connections between volunteers, families, and young fencers."
   },
   {
     icon: Target,
     title: "Empowerment",
-    description: "Through fencing, we help youth discover their inner strength and confidence."
+    description: "Through fencing, we help kids discover their inner strength and confidence."
   },
   {
     icon: Award,
